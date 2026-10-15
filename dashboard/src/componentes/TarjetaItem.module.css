@@ -1,0 +1,30 @@
+.cardContainer {
+  background: #1a1a1a;
+  border: 1px solid #4a2c2a;
+  padding: 1.2rem;
+  border-radius: 8px;
+  color: #f5f0e6;
+}
+
+.cardTitle {
+  font-size: 0.85rem;
+  color: #c9bfae;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.cardValue {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 0 0.8rem 0;
+  color: #d4a64a;
+}
+
+.cardBadge {
+  font-size: 0.75rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-weight: 600;
+  background: #7b1e2b;
+  color: #f5f0e6;
+}

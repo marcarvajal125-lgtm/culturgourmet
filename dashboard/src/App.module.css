@@ -1,0 +1,92 @@
+.contenedor {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem 1rem 2.5rem;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: clamp(2.2rem, 6vw, 3.5rem);
+  color: #D4AF37;
+  letter-spacing: 2px;
+}
+
+.hero p {
+  margin: 0.6rem 0 0;
+  color: #F4C6D5;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+.seccion {
+  margin-bottom: 3rem;
+}
+
+.tituloSeccion {
+  margin: 0 0 1.2rem;
+  font-size: 1.5rem;
+  color: #F0D77A;
+  border-left: 4px solid #7A1737;
+  padding-left: 0.7rem;
+}
+
+.gridMetricas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.gridPlatos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.4rem;
+}
+
+.buscador {
+  width: 100%;
+  padding: 0.9rem 1.2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 30px;
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  background: #151013;
+  color: #FFF8F5;
+  font-size: 1rem;
+  outline: none;
+}
+
+.buscador:focus {
+  border-color: #D4AF37;
+}
+
+.sinResultados {
+  color: #BEB4B8;
+  text-align: center;
+  padding: 2rem;
+}
+
+.aviso {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 30;
+  padding: 0.8rem 1.4rem;
+  border-radius: 30px;
+  background: #D4AF37;
+  color: #0D0A0C;
+  font-weight: bold;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+  text-align: center;
+  padding: 1.5rem;
+  color: #70666B;
+  font-size: 0.85rem;
+  border-top: 1px solid rgba(212, 175, 55, 0.15);
+}

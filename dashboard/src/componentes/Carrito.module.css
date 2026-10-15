@@ -1,0 +1,143 @@
+.fondo {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.panel {
+  width: 100%;
+  max-width: 380px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  background: #151013;
+  border-left: 1px solid rgba(212, 175, 55, 0.35);
+}
+
+.cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.cabecera h2 {
+  margin: 0;
+  color: #D4AF37;
+}
+
+.cerrar {
+  background: none;
+  border: none;
+  color: #BEB4B8;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.lista {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.vacio {
+  color: #BEB4B8;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.item {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  padding: 0.7rem;
+  border-radius: 10px;
+  background: rgba(122, 23, 55, 0.18);
+}
+
+.item img {
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.info {
+  flex: 1;
+}
+
+.info strong {
+  display: block;
+  font-size: 0.9rem;
+}
+
+.info small {
+  color: #F4C6D5;
+}
+
+.cantidad {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.3rem;
+}
+
+.cantidad button {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  border: 1px solid rgba(212, 175, 55, 0.45);
+  background: transparent;
+  color: #F0D77A;
+  cursor: pointer;
+}
+
+.eliminar {
+  background: none;
+  border: none;
+  color: #E8A0B8;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.resumen {
+  border-top: 1px solid rgba(212, 175, 55, 0.25);
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
+.fila {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.4rem;
+  color: #BEB4B8;
+}
+
+.total {
+  color: #D4AF37;
+  font-size: 1.15rem;
+  font-weight: bold;
+}
+
+.pedir {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 10px;
+  background: #7A1737;
+  color: #FFFFFF;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pedir:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}

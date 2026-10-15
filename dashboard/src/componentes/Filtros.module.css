@@ -1,0 +1,63 @@
+.filtros {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.culturas {
+  display: flex;
+  gap: 0.6rem;
+  overflow-x: auto;
+  padding-bottom: 0.4rem;
+}
+
+.chip {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex-shrink: 0;
+  padding: 0.45rem 0.9rem;
+  border-radius: 30px;
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  background: #151013;
+  color: #BEB4B8;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.chip img {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.chip:hover {
+  border-color: #D4AF37;
+  color: #FFF8F5;
+}
+
+.activo {
+  background: #7A1737;
+  border-color: #D4AF37;
+  color: #FFFFFF;
+}
+
+.dieta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #BEB4B8;
+  font-size: 0.9rem;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.dieta input {
+  width: 18px;
+  height: 18px;
+  accent-color: #D4AF37;
+  cursor: pointer;
+}
